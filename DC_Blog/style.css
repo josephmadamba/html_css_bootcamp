@@ -1,24 +1,52 @@
-
-
 header {
     padding: 20px 100px;
-    font-style: bold
+    font-style: bold;
+    display:flex;
 }
 
-header > * {
-    display: inline;
+.div {
+   display:flex;
+   align-content:flex-start;
+
+}
+header>* {
+    display:flex;
+    
 }
 
 ul.menu {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 
 ul.menu {
-    display: inline;
+    display: flex;
+    justify-content: space-around;
 }
 
-#h { align-content: center;
+.h {
+    align-content: center;
 
+}
+
+h6 {
+    text-align: center;
+
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center
+}
+
+.button {
+    display: flex;
+    margin: auto;
 }
